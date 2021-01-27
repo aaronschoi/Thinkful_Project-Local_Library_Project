@@ -1,7 +1,7 @@
 //finished
 function findAccountById(accounts, id) {
-  const [a] = accounts.filter(individualUser => individualUser.id === id);
-  return a;
+  const [foundAccount] = accounts.filter(individualUser => individualUser.id === id);
+  return foundAccount;
 }
 
 //finished
